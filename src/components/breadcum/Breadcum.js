@@ -1,9 +1,6 @@
 import React, {Component} from "react";
 
 class Breadcum extends Component{
-    constructor(){
-        super();
-    }
     
     render(){
         return (

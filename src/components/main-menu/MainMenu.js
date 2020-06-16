@@ -1,9 +1,6 @@
 import React, {Component} from "react";
 
 class MainMenu extends Component{
-    constructor(){
-        super();
-    }
 
     render(){
         return (
@@ -20,7 +17,7 @@ class MainMenu extends Component{
                                 <div className="menu">
                                     <ul className="main-ul">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a className="active" href="javascript:void(0)">+ Courses</a>
+                                        <li><a className="active" href="#Courses">+ Courses</a>
                                             <ul>
                                                 <li><h6>Courses pages</h6>
                                                     <ul>
@@ -50,7 +47,7 @@ class MainMenu extends Component{
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="javascript:void(0)">+ Blog</a>
+                                        <li><a href="#Blog">+ Blog</a>
                                             <ul>
                                                 <li><a href="blog-left.html">Blog Right</a></li>
                                                 <li><a href="blog-right.html">Blog Left</a></li>
@@ -58,7 +55,7 @@ class MainMenu extends Component{
                                                 <li><a href="single-blog.html">Single Blog</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="javascript:void(0)">+ Instructors</a>
+                                        <li><a href="#Instructors">+ Instructors</a>
                                             <ul>
                                                 <li><a href="instructors.html">Instructors</a></li>
                                                 <li><a href="single-instructors.html">Single Instructor</a></li>
@@ -72,7 +69,7 @@ class MainMenu extends Component{
                                     
                                     <button id="test" className="btn btn-default" type="submit"><i className="fa fa-search"></i></button>
                                     <div id="myNav" className="overlay">
-                                        <a href="javascript:void(0)" className="closebtn" id="closeNav">×</a>
+                                        <a className="closebtn" id="closeNav" href="#X">×</a>
                                         <div className="search-input">
                                             <input type="text" className="form-control" placeholder="What do you want to learn today?" />
                                             <button className="rex-bottom-medium rex-btn-icon search-btn" type="submit">

@@ -1,9 +1,6 @@
 import React, {Component} from "react";
 
 class Col4Left extends Component{
-    constructor(){
-        super();
-    }
     
     render(){
         return (
@@ -11,11 +8,11 @@ class Col4Left extends Component{
                 <aside className="widget widget_archive">
                     <h5>Availability</h5>
                     <ul>
-                        <li><a href="#">Current</a>&nbsp;204</li>
-                        <li><a href="#">Starting Soon</a>&nbsp;155</li>
-                        <li><a href="#">Upcoming</a>&nbsp;149</li>
-                        <li><a href="#">Self-Paced</a>&nbsp;453</li>
-                        <li><a href="#">Archived</a>&nbsp;33</li>
+                        <li><a href="#current">Current</a>&nbsp;204</li>
+                        <li><a href="#Starting">Starting Soon</a>&nbsp;155</li>
+                        <li><a href="#Upcoming">Upcoming</a>&nbsp;149</li>
+                        <li><a href="#Self-Paced">Self-Paced</a>&nbsp;453</li>
+                        <li><a href="#Archived">Archived</a>&nbsp;33</li>
                     </ul>
                 </aside>
                 <aside className="widget featured-section">
@@ -25,9 +22,9 @@ class Col4Left extends Component{
                             <img src="http://placehold.it/83x82" alt="" />
                         </div>
                         <div className="instruction-sidbar-title">
-                            <a href="#"><h6>Water Management</h6></a>
+                            <a href="#Water"><h6>Water Management</h6></a>
                             <span className="date">Starts: Jan 11, 2016</span>
-                            <p>By <a href="#">Eric Grimson</a></p>
+                            <p>By <a href="#Eric">Eric Grimson</a></p>
                         </div>
                     </div>
                     <div className="clearfix"></div>

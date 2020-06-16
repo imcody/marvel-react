@@ -4,9 +4,6 @@ import Col8Right from "./col-8-right/Col8Right";
 import Comic from "../../data/Comic";
 
 class CoursePage extends Component{
-    constructor(){
-        super();
-    }
     
     render(){
         return (

@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import Authors from "../authors/Authors"
 
 class Col8Right extends Component{
-    constructor(){
-        super();
-    }
     render(){
         return (
             <div className="col-md-8 courses_page-right">
@@ -23,7 +20,7 @@ class Col8Right extends Component{
                                 </div>
                                 <a href="single-courses.html"><h6>{this.props.Comic.title}</h6></a>
                                 <div className="entry-meta">
-                                    <Authors Author={this.props.Comic.creators.items} />
+                                    <Authors key={this.props.Comic.creators.items.id} Author={this.props.Comic.creators.items} />
                                     <div className="date">
                                         <p>Starts: Jan 11, 2016</p>
                                     </div>

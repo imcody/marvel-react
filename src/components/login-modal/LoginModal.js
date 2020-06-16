@@ -1,33 +1,30 @@
 import React, {Component} from "react";
 
 class LoginModal extends Component{
-    constructor(){
-        super();
-    }
 
     render(){
         return (
-            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="loginLabel">Login</h4>
+            <div className="modal fade" id="loginModal" role="dialog" aria-labelledby="loginLabel">
+                <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 className="modal-title" id="loginLabel">Login</h4>
                         </div>
-                        <div class="modal-body">
-                            <form class="rex-forms">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="recipient-name" placeholder="Name" />
+                        <div className="modal-body">
+                            <form className="rex-forms">
+                                <div className="form-group">
+                                    <input type="text" className="form-control" id="recipient-name" placeholder="Name" />
                                 </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" id="pass_word" placeholder="Password" />
+                                <div className="form-group">
+                                    <input type="password" className="form-control" id="pass_word" placeholder="Password" />
                                 </div>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button class="rex-bottom-medium rex-btn-icon">
-                                <span class="rex-btn-text">Login</span>
-                                <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+                        <div className="modal-footer">
+                            <button className="rex-bottom-medium rex-btn-icon">
+                                <span className="rex-btn-text">Login</span>
+                                <span className="rex-btn-text-icon"><i className="fa fa-arrow-circle-o-right"></i></span>
                             </button>
                         </div>
                     </div>

@@ -145,6 +145,11 @@ h5 {
 h6 {
   font-size: 14px; }
 
+.todo-list{
+  margin: 0 auto;
+  display: inline;
+}
+
 .btn-primary, .label-primary {
   background: #00b3ee; }
   .btn-primary:hover, .label-primary:hover {

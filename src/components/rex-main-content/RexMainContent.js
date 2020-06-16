@@ -4,9 +4,6 @@ import Breadcum from "./../breadcum/Breadcum";
 import ComicList from "./../comic-list/ComicList";
 
 class RexMainContent extends Component{
-    constructor(){
-        super();
-    }
     render(){
         return (
             <main className="rex-main-content">
